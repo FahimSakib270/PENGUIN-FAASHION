@@ -46,7 +46,51 @@
     </style>
   </head>
   <body class="roboto-fonts">
-    <header></header>
+    <header class="max-w-screen-xl mx-auto px-16 lg:px-28 bg-[#FFFBF0]">
+      <!-- Navbar -->
+      <div class="flex justify-between items-center mb-16 py-4">
+        <div>
+          <img class="w-48 lg:w-72 h-auto" src="icons/logo.png" alt="" />
+        </div>
+        <!-- Hamburger Menu for Mobile -->
+        <div class="md:hidden">
+          <button id="menu-toggle" class="text-2xl">☰</button>
+        </div>
+        <!-- Desktop Menu -->
+        <div class="hidden md:block">
+          <ul class="flex gap-8 lg:gap-14 text-xl font-bold">
+            <li><a href="#" class="hover:text-orange-400">HOME</a></li>
+            <li><a href="#" class="hover:text-orange-400">PRODUCT</a></li>
+            <li><a href="#" class="hover:text-orange-400">About us</a></li>
+            <li><a href="#" class="hover:text-orange-400">Contrac us</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Hero Section -->
+      <div
+        class="flex flex-col lg:flex items-center justify-center gap-4 lg:gap-8"
+      >
+        <div class="w-5/6 space-y-3">
+          <h1 class="bebas-neue-fonts text-5xl">
+            <span class="text-orange-400">Be the Penguins</span><br />
+            <span class="text-[#363958]">of Winter</span>
+          </h1>
+          <p class="text-[#3E3E3E] text-xl">
+            Inspired by the elegance of Antarctic penguins, winter fashion
+            embraces resilience and sophistication.
+          </p>
+          <div
+            class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] p-3 rounded-lg w-32 cursor-pointer hover:opacity-90 transition-opacity"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button class="">BUY NOW</button>
+          </div>
+        </div>
+        <div class="w-full lg:w-auto">
+          <img class="w-full lg:w-auto" src="images/model.png" alt="" />
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
